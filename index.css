@@ -20,8 +20,9 @@ html,body{
     flex: 1;
     background-color: #000;
 }
-#dc,#bl,#mirror,#ls,#fk,#zy,#yh{opacity: 30%;
-transition: 2s;}
+#dc,#bl,#mirror,#ls,#fk,#zy,#yh{opacity: 40%;
+transition: 0.5s ease-out;}
+#dc:hover{opacity: 100%;}
 #yh:hover{opacity: 100%;}
 #bl:hover{opacity: 100%;}
 #mirror:hover{opacity: 100%;}
@@ -35,8 +36,9 @@ transition: 2s;}
     flex-direction: row;
     flex-wrap: wrap;
 }
-
-
+#dc{width: 200px;}
+#fk{width: 120px;}
+#yh{width: 150px}
 .img_box_one{
     width: 30%;
     height: 30%;
@@ -55,7 +57,7 @@ transition: 2s;}
 .right_box{
     flex: 1;
     background-color: #fff;
-    text-align: center;
+    text-align:center;
 }
 
 .right_box p{
@@ -85,7 +87,7 @@ h2{
 
 .center_post{
     position: absolute;
-    left: 40%;
+    left: 50%;
     top: 50%;
     transform: translate(-50%,-50%);
     width: 500px;
