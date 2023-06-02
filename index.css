@@ -116,6 +116,9 @@ body {
     margin-top: 0px;
 }
 
+p{opacity: 1.0;
+transition: opacity 5s ;}
+
 
 
 h1 {
@@ -138,8 +141,8 @@ h2 {
     transform: translate(-50%, -50%);
     width: 680px;
     height: 330px;
-    background-color: #fff;
-    border: 1px solid #000;
+    background-color: #ffffff;
+    border: 1px solid #000000;
 }
 
 .center_boxs {
@@ -162,6 +165,7 @@ h2 {
     position: absolute;
     top: 0;
     left: 45%;
+    color: #000000;
 }
 
 #GoLink:hover{
