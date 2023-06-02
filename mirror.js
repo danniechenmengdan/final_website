@@ -2,7 +2,7 @@
     let up = document.getElementById('GoUp')
     let down = document.getElementById('GoDown')
     let ShowImg = document.getElementById('ShowImg')
-    let dc = ['']
+    let dc = ['镜mirror.mp4']
     let clickI = 0
     up.onclick = ()=>{
         ShowImg.src = 'picture/'+dc[clickI]
