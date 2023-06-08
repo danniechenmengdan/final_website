@@ -2,13 +2,13 @@
     let imgAll = document.querySelectorAll('.img_box_one')
     let imgBox = document.getElementById('center_box')
     let imgList = {
-        dc: ['IMG_6686.JPG', 'IMG_6684.JPG', 'IMG_6689.JPG'],
-        bl: ['7.jpg', '2.jpg', '3.jpg'],
-        mirror: ['IMG_6691.JPG'],
-        house: ['1C0A0634.JPG', '1C0A0643.JPG', '1C0A0641.JPG'],
-        fk: ['fk01.jpg', 'fk03.jpg', 'fk05.jpg'],
-        zy: ['DSCF5307.JPG', 'DSCF5305.JPG', 'DSCF5300.JPG'],
-        yh: ['可视化图谱_生命银行.png']
+        dc: ['big-2.jpg'],
+        bl: ['big-1.jpg'],
+        mirror: ['big-3.jpg'],
+        house: ['big-4.jpg'],
+        fk: ['big-5.jpg'],
+        zy: ['big-6.jpg'],
+        yh: ['big-7.jpg']
     }
 
     imgAll.forEach(val => {

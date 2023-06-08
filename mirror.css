@@ -22,6 +22,8 @@ html,body{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    font-family: 'Times New Roman', Times, serif;
+    
 }
 
 .color1{
@@ -31,7 +33,6 @@ html,body{
 .btn{
     width: 50px;
     height: 30px;
-    border: 1px solid #ff7cad;
     line-height: 30px;
     text-align: center;
 }
@@ -108,4 +109,5 @@ html,body{
     color: #fff;
     margin-right: 10px;
     font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
 }
