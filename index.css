@@ -15,6 +15,32 @@ body {
     /* background-color: aqua; */
     display: flex;
     position: relative;
+    flex-direction: row;
+}
+
+@media screen and (max-width:750px) {
+    #app{
+        flex-direction: column;
+    }
+    .center_box{
+        height: auto !important;
+    }
+    .center_post{
+        width: 100% !important;
+        border: none !important;
+    }
+    .zw{
+        height: 500px;
+    }
+    .img_box_one{
+        margin-left: 50px !important;
+    }
+    .img_box_one img{
+       width: 100% !important;
+    }
+    .Email_box{
+        bottom:-50px !important;
+    }
 }
 
 .left_box {
